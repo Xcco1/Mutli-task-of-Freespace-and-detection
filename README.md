@@ -3,8 +3,12 @@
 ![img](https://user-images.githubusercontent.com/61531491/178978721-dbc36f96-5de7-4d0d-aa06-12d07c2a1108.jpg)
 
 The task is still processing！~
+
 You are welcome to contact me by WeChat:18202113716 or QQ:1377125526
+
 首先第一次尝试该多任务，首先采取共享backbone的方式，backbone采用MobileNetV2，和我们其他工作中的backbone保持了一直。
+
 对于检测，采用NanoDet中的GhostFPN，以及Head，
+
 对于FreeSpace,先借鉴BiseNetV2,使用BGA layer进行特征融合，然后设计了一个轻量化分割头。
 
